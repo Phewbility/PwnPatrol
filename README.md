@@ -1,4 +1,4 @@
-<img src="https://github.com/Dakhay/PwnPatrol/assets/74660357/83741ab1-ac44-42d4-afba-c23398e957bb" alt="PwnPatrol_logo" width="200"/>
+<img src="https://github.com/Dakhay/PwnPatrol/assets/74660357/83741ab1-ac44-42d4-afba-c23398e957bb" alt="PwnPatrol_logo" width="300"/>
 
 # PwnPatrol
 
@@ -28,13 +28,13 @@ PwnPatrol is a comprehensive analysis tool designed to perform various security 
    ```bash
    git clone https://github.com/yourusername/PwnPatrol.git
    cd PwnPatrol
-
+   ```
 
 2. Exemple :
 
    ```bash
    python3 pwnpatrol.py -f -s binary.bin 
-
+   ```
 
 
 <img src="https://github.com/Dakhay/PwnPatrol/assets/74660357/33b09393-8faa-4a74-aa40-2c05513b93d5" alt="PwnPatrol_example" width="1000"/>
