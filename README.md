@@ -36,3 +36,5 @@ PwnPatrol is a comprehensive analysis tool designed to perform various security 
    python3 pwnpatrol.py -f -s binary.bin 
 
 
+
+<img src="[https://github.com/Dakhay/PwnPatrol/assets/74660357/83741ab1-ac44-42d4-afba-c23398e957bb](https://github.com/Dakhay/PwnPatrol/issues/2#issue-2321008784)" alt="PwnPatrol_example" width="400"/>
