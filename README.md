@@ -28,3 +28,11 @@ PwnPatrol is a comprehensive analysis tool designed to perform various security 
    ```bash
    git clone https://github.com/yourusername/PwnPatrol.git
    cd PwnPatrol
+
+
+2. Exemple :
+
+   ```bash
+   python3 pwnpatrol.py -f -s binary.bin 
+
+
