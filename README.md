@@ -33,7 +33,8 @@ PwnPatrol is a simple and fast tool designed for quick checks in pwn. It can dis
 2. Exemple :
 
    ```bash
-   python3 pwnpatrol.py -f -s binary.bin 
+   python3 pwnpatrol.py -f -s binary.bin
+   python3 pwnpatrol.py binary.bin -a main 
    ```
 
 
