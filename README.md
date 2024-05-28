@@ -18,7 +18,7 @@ PwnPatrol is a simple and fast tool designed for quick checks in pwn. It can dis
 ### Prerequisites
 
 - `radare2`
-- `Python 3`
+- `Python3`
 - `pip`
 
 ### Setup
