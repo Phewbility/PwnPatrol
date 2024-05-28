@@ -37,4 +37,4 @@ PwnPatrol is a comprehensive analysis tool designed to perform various security 
 
 
 
-<img src="https://github.com/Dakhay/PwnPatrol/assets/74660357/33b09393-8faa-4a74-aa40-2c05513b93d5" alt="PwnPatrol_example" width="600"/>
+<img src="https://github.com/Dakhay/PwnPatrol/assets/74660357/33b09393-8faa-4a74-aa40-2c05513b93d5" alt="PwnPatrol_example" width="1000"/>
