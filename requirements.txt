@@ -1,0 +1,4 @@
+r2pipe
+colorama
+pyfiglet
+pexpect
