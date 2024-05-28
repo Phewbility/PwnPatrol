@@ -2,7 +2,7 @@
 
 # PwnPatrol
 
-PwnPatrol is a comprehensive analysis tool designed to perform various security analyses on executable files. It can display functions, assembly code, pseudo-code in C, trace library calls, and check security hardening.
+PwnPatrol is a simple and fast tool designed for quick checks in pwn. It can display functions, assembly code, pseudo-code in C, trace library calls, and check security hardening.
 
 ## Features
 
