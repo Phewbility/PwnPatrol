@@ -69,7 +69,7 @@ if ! r2pm -l|grep "r2ghidra-sleigh" &> /dev/null; then
 else
   echo "${tpGreen}r2ghidra Found !${tpEnd}"
 fi 
-
+echo "${tpYellow} Checking Hardening-check..."
 if ! command -v hardening-check &> /dev/null; then
   echo "${tpRed}Hardenig-Check not found!${tpEnd}"
   echo "${tpYellow}Installing Hardening-Check...${tpEnd}"
@@ -79,6 +79,6 @@ else
 fi
 echo "${tpYellow} Intstalling pip requirements...${tpEnd}"
 pip3 install -r requirements.txt
-echo "${tpBlue} Installation COMPLETE..."
+echo "${tpBlue} Installation COMPLETE !"
 echo "${tpBleu} Enjoy Pwning !${tpEnd}"
 
