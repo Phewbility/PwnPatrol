@@ -68,7 +68,7 @@ if ! r2pm -l|grep "r2ghidra-sleigh" &> /dev/null; then
   echo "${tpRed}r2ghidra-sleigh not found!${tpEnd}"
   echo "${tpYellow}Installing ...${tpEnd}"
   r2pm -ci r2ghidra-sleigh
-  echo "${tpGreen}r2ghidra-sleigh successfully installed.${tpEnd}
+  echo "${tpGreen}r2ghidra-sleigh successfully installed.${tpEnd}"
 else
   echo "${tpGreen}r2ghidra Found !${tpEnd}"
 fi 
