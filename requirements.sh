@@ -27,7 +27,7 @@ if ! command -v python3 &> /dev/null; then
   echo "${tpRed}Python3 not found!${tpEnd}"
   echo "${tpYellow}Installing Python3...${tpEnd}"
   apt-get install -y python3
-  echo "${tpGreen}Python3 successfully.${tpEnd}"
+  echo "${tpGreen}Python3 successfully installed.${tpEnd}"
 else
   echo "${tpGreen}Python3 found and already installed.${tpEnd}"
 fi
