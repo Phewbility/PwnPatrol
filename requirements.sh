@@ -50,6 +50,7 @@ if ! r2pm -l|grep "r2ghidra" &> /dev/null; then
   echo "${tpRed}r2ghidra not found!${tpEnd}"
   echo "${tpYellow}Installing ...${tpEnd}"
   r2pm -ci r2ghidra
+  echo "${tpGreen}r2ghidra successfully installed.${tpEnd}
 else
   echo "${tpGreen}r2ghidra Found !"
 fi
@@ -58,6 +59,7 @@ if ! r2pm -l|grep "r2dec" &> /dev/null; then
   echo "${tpRed}r2dec not found!${tpEnd}"
   echo "${tpYellow}Installing ...${tpEnd}"
   r2pm -ci r2dec
+  echo "${tpGreen}r2dec successfully installed.${tpEnd}
 else
   echo "${tpGreen}r2dec Found !${tpEnd}"
 fi
@@ -66,6 +68,7 @@ if ! r2pm -l|grep "r2ghidra-sleigh" &> /dev/null; then
   echo "${tpRed}r2ghidra-sleigh not found!${tpEnd}"
   echo "${tpYellow}Installing ...${tpEnd}"
   r2pm -ci r2ghidra-sleigh
+  echo "${tpGreen}r2ghidra-sleigh successfully installed.${tpEnd}
 else
   echo "${tpGreen}r2ghidra Found !${tpEnd}"
 fi 
@@ -74,6 +77,7 @@ if ! command -v hardening-check &> /dev/null; then
   echo "${tpRed}Hardenig-Check not found!${tpEnd}"
   echo "${tpYellow}Installing Hardening-Check...${tpEnd}"
   apt install devscripts -y
+  echo "${tpGreen}devscript successfully installed.${tpEnd}
 else
   echo "${tpGreen}Hardening Check Found !${tpEnd}"
 fi
