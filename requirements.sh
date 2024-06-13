@@ -77,7 +77,7 @@ if ! command -v hardening-check &> /dev/null; then
   echo "${tpRed}Hardenig-Check not found!${tpEnd}"
   echo "${tpYellow}Installing Hardening-Check...${tpEnd}"
   apt install devscripts -y
-  echo "${tpGreen}devscript successfully installed.${tpEnd}
+  echo "${tpGreen}devscript successfully installed.${tpEnd}"
 else
   echo "${tpGreen}Hardening Check Found !${tpEnd}"
 fi
